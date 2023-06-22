@@ -1,0 +1,44 @@
+.vectorIcon {
+  position: relative;
+  width: 13.97px;
+  height: 9.61px;
+}
+.checkbox {
+  border-radius: var(--br-12xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.termsconditions {
+  color: var(--color-mediumslateblue);
+}
+.iAgreeWithContainer {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.fields,
+.labelcheckbox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+}
+.fields {
+  flex-direction: column;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}

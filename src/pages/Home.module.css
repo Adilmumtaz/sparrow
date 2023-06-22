@@ -1,0 +1,371 @@
+.personalityAssessmentIs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 415px;
+}
+.heroText {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 536px;
+  height: 463px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 94px 55px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.heroImageIcon {
+  position: relative;
+  width: 461px;
+  height: 400px;
+  object-fit: cover;
+}
+.heroImageSection,
+.heroTextParent {
+  height: 463px;
+  display: flex;
+  justify-content: flex-start;
+}
+.heroImageSection {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 536px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-10xl) 31px;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+.heroTextParent {
+  position: absolute;
+  top: 318px;
+  left: 131px;
+  width: 1140px;
+  flex-direction: row;
+  align-items: center;
+  gap: 68px;
+  color: var(--color-gray-200);
+  font-family: var(--font-charmonman);
+}
+.reachUsOut {
+  position: relative;
+}
+.mailFrame,
+.messageFrame,
+.nameFrame {
+  position: absolute;
+  top: 71px;
+  left: 60px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 477px;
+  height: 33px;
+  overflow: hidden;
+}
+.messageFrame,
+.nameFrame {
+  top: 160px;
+}
+.messageFrame {
+  top: 237px;
+  height: 103px;
+}
+.mail,
+.message,
+.name {
+  position: absolute;
+  top: 39px;
+  left: 81px;
+}
+.message,
+.name {
+  top: 127px;
+}
+.message {
+  top: 205px;
+}
+.formContainer,
+.frame {
+  width: 966px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.formContainer {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  height: 383px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-im-fell-great-primer);
+}
+.frame {
+  height: 483px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 58px;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 1px;
+  height: 21px;
+}
+.frame1,
+.frame2,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+}
+.frame2 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro);
+  width: 120px;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-8xs) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: -17px;
+}
+.frame1,
+.frameParent {
+  align-items: center;
+}
+.frame1 {
+  width: 120px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-indie-flower);
+}
+.frameParent {
+  position: absolute;
+  top: 915px;
+  left: 237px;
+  width: 966px;
+  height: 597px;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.howWeDo {
+  margin: 0;
+}
+.weUseVery {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.howWeDoContainer {
+  position: relative;
+  display: inline-block;
+  width: 588px;
+  height: 196px;
+  flex-shrink: 0;
+}
+.textFrame {
+  position: absolute;
+  top: 1607px;
+  left: 261px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 936px;
+  height: 346px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 137px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-dm-sans);
+}
+.ourTestsAre1 {
+  position: undefined;
+  display: inline-block;
+  height: 42px;
+  margin-left: 335px;
+}
+.accurateWrapper,
+.advanceTechWrapper,
+.wellResearchedWrapper {
+  position: absolute;
+  top: 59px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  height: 92px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.accurateWrapper {
+  left: 13px;
+  width: 255px;
+  padding: var(--padding-6xl) 63px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.advanceTechWrapper,
+.wellResearchedWrapper {
+  justify-content: flex-start;
+}
+.wellResearchedWrapper {
+  left: 582px;
+  width: 255px;
+  padding: var(--padding-6xl) 10px;
+  align-items: flex-end;
+}
+.advanceTechWrapper {
+  left: 297px;
+  width: 256px;
+  padding: 23px 0;
+  align-items: center;
+}
+.detailed,
+.detailedWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 196px;
+}
+.detailedWrapper {
+  position: absolute;
+  top: 211px;
+  left: 13px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 255px;
+  height: 92px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.trustWorthyProcess {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+}
+.trustWorthyProcessWrapper {
+  position: absolute;
+  top: 211px;
+  left: 582px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 255px;
+  height: 92px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.differentSpectrum {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 239px;
+}
+.differentSpectrumWrapper {
+  position: absolute;
+  top: 211px;
+  left: 297px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 256px;
+  height: 92px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 7px var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  position: relative;
+  width: 936px;
+  height: 362px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-lora);
+}
+.ourTestsAreParent {
+  position: absolute;
+  top: 2127px;
+  left: 288px;
+  width: 936px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--font-inria-sans);
+}
+.testimonials {
+  position: absolute;
+  top: 0;
+  left: 283px;
+  font-size: var(--font-size-16xl);
+}
+.containerIcon,
+.imageIcon {
+  position: absolute;
+  top: 116px;
+  left: 0;
+  width: 771px;
+  height: 130px;
+}
+.imageIcon {
+  top: 132px;
+  left: 37px;
+  width: 103px;
+  height: 101px;
+}
+.dianeAddison {
+  position: absolute;
+  top: 142px;
+  left: 168px;
+}
+.lovedTheExperience {
+  position: absolute;
+  top: 178px;
+  left: 175px;
+}
+.testimonialsParent {
+  position: absolute;
+  top: 2638px;
+  left: 340px;
+  width: 771px;
+  height: 246px;
+  font-size: var(--font-size-mini);
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3313px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

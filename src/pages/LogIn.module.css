@@ -1,0 +1,87 @@
+.close {
+  position: relative;
+  height: 24px;
+}
+.close,
+.header,
+.logIn1 {
+  align-self: stretch;
+}
+.logIn1 {
+  position: relative;
+  letter-spacing: -0.8px;
+  line-height: 40px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.logIn2 {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.loginButton {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-mediumslateblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-16xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.dontHaveAn,
+.signUp1 {
+  position: relative;
+  line-height: 16px;
+}
+.signUp1 {
+  font-size: var(--font-size-mid);
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--color-mediumslateblue);
+  cursor: pointer;
+}
+.buttons,
+.logIn,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signUp {
+  width: 540px;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.buttons,
+.logIn {
+  justify-content: flex-start;
+}
+.buttons {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.logIn {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  padding: var(--padding-13xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}

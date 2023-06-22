@@ -1,0 +1,83 @@
+.personalityAssessmentIs {
+  position: absolute;
+  top: 94px;
+  left: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 415px;
+}
+.heroText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 536px;
+  height: 463px;
+  overflow: hidden;
+}
+.heroImageIcon {
+  position: absolute;
+  top: 29px;
+  left: 44px;
+  width: 461px;
+  height: 400px;
+  object-fit: cover;
+}
+.heroImageSection {
+  position: absolute;
+  top: 0;
+  left: 604px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 536px;
+  height: 463px;
+  overflow: hidden;
+}
+.heroTextParent {
+  position: absolute;
+  top: 318px;
+  left: 131px;
+  width: 1140px;
+  height: 463px;
+  color: var(--color-gray-200);
+  font-family: var(--font-charmonman);
+}
+.contactChild {
+  position: absolute;
+  top: 978px;
+  left: 158px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro);
+  width: 1082px;
+  height: 495px;
+}
+.weBelieveThat {
+  position: absolute;
+  top: 1038px;
+  left: 205px;
+  text-align: left;
+  display: inline-block;
+  width: 391px;
+  height: 82px;
+}
+.technologyImprovesEvery {
+  position: absolute;
+  top: 1120px;
+  left: 380px;
+  display: inline-block;
+  width: 804px;
+  height: 272px;
+}
+.contact {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2644px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

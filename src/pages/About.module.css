@@ -1,0 +1,110 @@
+.aboutChild {
+  position: absolute;
+  top: 331px;
+  left: 189px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro);
+  width: 1082px;
+  height: 495px;
+}
+.personalityAssessorIs {
+  margin: 0;
+}
+.personalityAssessorIsContainer {
+  position: absolute;
+  top: 435px;
+  left: 263px;
+  display: inline-block;
+  width: 938px;
+  height: 337px;
+}
+.weUseVery {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.howWeDoContainer {
+  position: absolute;
+  top: 52px;
+  left: 137px;
+  display: inline-block;
+  width: 588px;
+  height: 196px;
+}
+.textFrame {
+  position: absolute;
+  top: 1003px;
+  left: 265px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 936px;
+  height: 346px;
+  overflow: hidden;
+  font-family: var(--font-dm-sans);
+}
+.ourTeam {
+  position: absolute;
+  top: 0;
+  left: 352px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-inria-sans);
+}
+.sakinaBibi {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 76px);
+}
+.bsse8thStudentContainer {
+  position: absolute;
+  top: 85px;
+  left: calc(50% - 138px);
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 277px;
+  height: 73px;
+}
+.sakinaBibiParent {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 380px;
+  height: 412px;
+  overflow: hidden;
+}
+.adilMumtaz {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 88px);
+}
+.adilMumtazParent {
+  position: absolute;
+  top: 101px;
+  left: 496px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 380px;
+  height: 412px;
+  overflow: hidden;
+}
+.ourTeamParent {
+  position: absolute;
+  top: 1458px;
+  left: 295px;
+  width: 876px;
+  height: 513px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-lora);
+}
+.about {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2515px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

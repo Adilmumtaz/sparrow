@@ -1,0 +1,89 @@
+.frameChild {
+  position: absolute;
+  top: 508px;
+  left: 424px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro);
+  width: 120px;
+  height: 44px;
+}
+.reachUsOut {
+  position: absolute;
+  top: 0;
+  left: 378px;
+  font-size: var(--font-size-16xl);
+}
+.mailFrame,
+.messageFrame,
+.nameFrame {
+  position: absolute;
+  top: 71px;
+  left: 60px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 477px;
+  height: 33px;
+  overflow: hidden;
+}
+.messageFrame,
+.nameFrame {
+  top: 160px;
+}
+.messageFrame {
+  top: 237px;
+  height: 103px;
+}
+.mail,
+.message,
+.name {
+  position: absolute;
+  top: 39px;
+  left: 81px;
+}
+.message,
+.name {
+  top: 127px;
+}
+.message {
+  top: 205px;
+}
+.formContainer {
+  top: 100px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-silver);
+  width: 966px;
+  height: 383px;
+  overflow: hidden;
+  font-family: var(--font-im-fell-great-primer);
+}
+.div,
+.formContainer,
+.frameItem {
+  position: absolute;
+}
+.div {
+  top: 518px;
+  left: 449px;
+  font-family: var(--font-indie-flower);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.frameItem {
+  top: 504px;
+  left: 482px;
+  background-color: var(--color-gainsboro);
+  width: 1px;
+  height: 21px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 1567px;
+  left: 218px;
+  width: 966px;
+  height: 597px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
